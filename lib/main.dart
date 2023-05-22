@@ -1,4 +1,6 @@
-import 'package:api_demo/views/homepage.dart';
+import 'package:api_demo/views/home_page.dart';
+import 'package:api_demo/views/shopping_page.dart';
+import 'package:api_demo/views/user_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,11 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-     
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  HomePage(),
+      home: ShoppingPage(),
     );
   }
 }
